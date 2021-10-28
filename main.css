@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+canvas {
+  border: 2px solid black;
+  margin: 20px;
+  width: -webkit-fill-available;
+}
+
+.toolbar-buttons {
+  display: flex;
+  grid-gap: 8 px;
+  gap: 8 px;
+  margin: 12 px;
+}

@@ -25,3 +25,7 @@ export const showComponent = (componentId) => {
 export const hideComponent = (componentId) => {
   document.getElementById(componentId).style.display = "none";
 }
+
+export const convertObjectInArray = (obj) => {
+  return Object.values(obj).filter(item => !!item);
+}
